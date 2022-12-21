@@ -1,0 +1,40 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+.screen-wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.otp-container{
+    border: 2px solid black;
+    width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.otp-input{
+    width: 60px;
+    height: 75px;
+    font-size: 35px;   
+    text-align: center;
+    border-radius: 7px;
+    margin: 0px 4px;
+}
+.otp-input:focus{
+    outline: none;
+    border: 1px solid #9db8f5;
+}
+.foot-note{
+    background-color: #eeeeee;
+    color: #b6b6b6;
+    border-radius:5px;
+    width: 450px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 8px;
+}
